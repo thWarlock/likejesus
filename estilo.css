@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #63b19b;
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(102, 111, 81, 0.67);
+    /* background-image: linear-gradient(to right, ); */
+    padding: 20px 0;
+    transition: background-color 0.3s ease;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+margin: 0 30px;
+} 
+nav ul li a {
+color: rgb(255, 252, 247);
+text-decoration: none;
+font-size: 18px;
+padding: 10px;
+transition: color 0.3s;
+}
+nav ul li a:hover {
+    color: rgb(214, 247, 176);
+    font-size: 20px;
+    transition: 0.3s;
+}
+section:not(#home){
+    padding: 100px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#home {
+/* background-color:  */
+background-image: url(https://w7.pngwing.com/pngs/554/43/png-transparent-statue-beside-man-jesus-christ-the-redeemer-dogma-buddy-christ-statue-jesus-christ-christianity-hand-religion.png);
+background-size: cover;
+background-repeat: no-repeat;
+color: rgb(255, 255, 255);
+height: 100vh;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 1.5em;
+}
+#about {
+    background-color: rgb(116, 164, 170);
+}
